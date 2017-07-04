@@ -287,17 +287,11 @@ label > .label-body {
 .radiolbl{
   font-size: 20px;
 }
-.radiolbl:checked{
-  background-color: darkseagreen;
+.radioinput{
   font-size: 20px;
 }
-.radiolbl:focus{
-  background-color: red;
-  font-size: 20px;
-}
-radiolbl:active{
-  background-color: blue;
-  font-size: 20px;
+.radioinput:checked{
+  color: darkseagreen;
 }
 
 
