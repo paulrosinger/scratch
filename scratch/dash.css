@@ -285,7 +285,6 @@ label > .label-body {
   font-weight: normal; }
 
 .radiolbl{
-  background-color: #bbbbbb;
   font-size: 20px;
 }
 .radiolbl:checked{
