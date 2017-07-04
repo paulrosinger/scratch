@@ -275,9 +275,8 @@ fieldset {
   padding: 0;
   border-width: 0; }
 input[type="checkbox"],
-label > input[type="radio"] {
+input[type="radio"] {
   display: inline;
-  background-color: cornflowerblue;
   padding: 4px 11px;
 }
 label > .label-body {
@@ -285,6 +284,10 @@ label > .label-body {
   margin-left: .5rem;
   font-weight: normal; }
 
+.radiolbl{
+  background-color: #bbbbbb;
+  font-size: 20px;
+}
 
 /* Lists
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
