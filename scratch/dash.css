@@ -292,7 +292,7 @@ label > .label-body {
   font-size: 20px;
   background-color: cornflowerblue;
 }
-.radioinput:checked{
+.radioinput:checked + label{
   color: darkseagreen;
   background-color: red;
 }
