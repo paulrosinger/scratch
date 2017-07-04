@@ -277,6 +277,9 @@ fieldset {
 input[type="checkbox"],
 input[type="radio"] {
   display: inline; }
+input[type="radio"]:checked+label {
+  background-color: #bbb;
+}
 label > .label-body {
   display: inline-block;
   margin-left: .5rem;
