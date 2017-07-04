@@ -275,8 +275,11 @@ fieldset {
   padding: 0;
   border-width: 0; }
 input[type="checkbox"],
-input[type="radio"] {
-  display: inline; }
+input[type="radio"]:label {
+  display: inline;
+  background-color: #ddd;
+  padding: 4px 11px;
+}
 input[type="radio"]:checked+label {
   background-color: #bbb;
 }
